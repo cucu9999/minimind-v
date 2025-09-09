@@ -9,4 +9,4 @@ model/*
 !model/vision_model/README.md  # clip模型
 
 
-out/*  # 忽略out下所有权重文件
+out/  # 忽略out文件夹
