@@ -21,7 +21,7 @@
     # or
     https://huggingface.co/jingyaogong/MiniMind2-V-PyTorch/blob/main/lm_768.pth
 
-    3. /minimind-v 下载模型
+    3. /minimind-v 下载模型 (此步没有必要，/model中已包含)
     git clone https://huggingface.co/jingyaogong/MiniMind2-V
     ```
 
@@ -42,3 +42,9 @@
 
 
 - 模型训练
+
+```bash
+torchrun --nproc_per_node 2 train_pretrain_vlm.py  --hidden_size 512
+```
+
+# 可能一个问题：2.3步骤可能没有用，同理llm中。
