@@ -1,0 +1,10 @@
+__pycache__ # 无论在哪个子目录，自动忽略
+
+!/dataset/*.py             # 保留 .py源码
+!/dataset/eval_images/     # 保留测试图片
+!/dataset/eval_multi_images/
+
+!/model/vision_model/README.md  # clip模型
+
+
+/out/*.pth   # 忽略out下所有权重文件
