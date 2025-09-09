@@ -9,4 +9,4 @@ __pycache__/ # 无论在哪个子目录，自动忽略
 !/model/vision_model/README.md  # clip模型
 
 
-/out/*.pth   # 忽略out下所有权重文件
+/out  # 忽略out下所有权重文件
