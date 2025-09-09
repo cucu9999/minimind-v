@@ -11,3 +11,5 @@ __pycache__/ # 无论在哪个子目录，自动忽略
 
 /out/  # 忽略out文件夹
 /out/**
+
+MiniMind2-V/
