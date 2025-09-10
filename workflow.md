@@ -48,3 +48,5 @@ torchrun --nproc_per_node 2 train_pretrain_vlm.py  --hidden_size 512
 ```
 
 # 可能一个问题：2.3步骤可能没有用，同理llm中。（确认重复！）
+
+
